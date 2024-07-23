@@ -1,105 +1,45 @@
+
 .img1{
-  height: 200px;
-  width: 300px;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
   display: flex;
- border: solid; 
- 
 }
+
 
 .img1:hover{
   scale: 1.1;
-  transition: 0.5s;
-}
-.img2:hover{
-  scale: 1.1;
-  transition: 0.5s;
-}
-.img3:hover{
-  scale: 1.1;
+  border: solid;
   transition: 0.5s;
 }
 
-
-.div1{
+.pai{
   display: flex;
-  margin: auto;
-  justify-content: center;
   gap: 20px;
+  margin-top: 3%;
+margin-left: 10%;
 }
 
 .title{
-  font-size: 20px;
   color: blue;
-  max-width: 400px;
+  display: flex;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
 }
-
-
-.text1{
-  font-size: 10px;
+.text{
+  display: flex;
+  color: gray;
   max-width: 300px;
-  font-size: 15px
- 
-}
-
-.img2{
-  height: 200px;
-  width: 300px;
-  display: flex;
-  border: solid;
-}
-
-.div2{
-  display: flex;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-
-
-.text2{
-  font-size: 10px;
-  max-width: 300px;
-  font-size: 15px
   
+
+
+
 }
 
-.divpai{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-top: 5%;
-}
-
-
-.img3{
-  height: 200px;
-  width: 300px;
-  display: flex;
-  border: solid;
-}
-
-.div3{
-  display: flex;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.text3{
-  font-size: 10px;
-  max-width: 300px;
-  font-size: 15px
-  
-}
-
-  
-hr{
-  width:48%;
-  border-bottom: 1px solid gray;
+.title2{
+  color: blue;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
 }
 
 
